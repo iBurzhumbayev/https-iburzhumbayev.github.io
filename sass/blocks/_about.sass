@@ -1,0 +1,42 @@
+.about
+    padding: 120px 0
+    &__flex
+        display: flex
+        justify-content: space-between
+    &__photo
+        width: 400px
+        height: 400px
+    &__wrapper
+        padding-left: 70px
+        .divider
+            margin: 0
+            margin-top: 4px
+    &__title 
+        position: relative
+        padding: 1px 0 0 12px
+        @include before_circle
+    &__descr
+        font-weight: 500
+        font-size: 14px
+        line-height: 21px
+        margin-top: 20px
+    &__skill
+        display: flex
+        margin-top: 22px
+        &-circle 
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 40px
+            height: 40px
+            border-radius: 100%
+            background-color: $main-color
+    &__inner
+        width: 292px
+        margin-left: 20px
+    &__text
+        font-weight: 500
+        font-size: 14px
+        line-height: 21px
+        margin-top: 6px
+            
